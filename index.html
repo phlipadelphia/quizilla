@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coding Quiz Challenge</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+    <header>
+        <h1 style="text-align:center;">✨ Coding Quiz Challenge ✨! </h1>
+    </header>
+<body>
+    <p id="openparagraph" style="text-align: center; color: green"> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+    <button id="start" style="align-content: center;">Start Quiz!</button>
+    <div id="countdown" >
+     <h2 class="time"></h2>      
+    </div>
+    
+    <div class="question1" style="width: 18rem; margin: auto; display:none;">
+        <div class="card-body" style="align-self: center;">
+          <h1 class="card-title">Question #</h1>
+          <p class="card-text">Sample Question:</p>
+            <div class="first-answers" style="flex-direction: column; flex-wrap: wrap;">
+                <button type="button" class="btnone">text 1</button>
+                <button type="button" class="btnone">teext2</button>
+                <button type="button" class="btnone">text3</button>
+                <button type="button" class="btnone">text4</button>
+            </div>
+        </div>
+      </div>
+      <div id="endgame" style="width: 18rem; margin: auto; display:none;">
+        <div class="card-body p-5" style="align-self: center;">
+            <p class="gameover">Game Over!</p>
+            <input type="text" placeholder="Please enter initials " id="inputId"/> 
+            <br /> 
+            <label id="score-title">Your score is : </label>
+            <br/>
+            <button id="savescore">Save score</button>
+      </div>
+
+</body>
+
+    <script src="./assets/js/script.js"></script>
+
+</html>

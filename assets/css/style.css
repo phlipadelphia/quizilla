@@ -1,0 +1,19 @@
+
+#startbtn {
+    align-content: center;
+}
+
+#card {
+    align-self: center;
+}
+
+.first-answers {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+button {
+    background-color: purple;
+    color: white;
+}
